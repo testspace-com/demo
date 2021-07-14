@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="UI Side">
+    <testcase classname="UI Side" name="Dialog showing new feature pending" time="12.10"/>
+    <testcase classname="UI Side" name="Next page blinking .." time="32.20"/>
+    <testcase classname="UI Side" name="Arrow to continue or restart .. " time="37.03"/>
+    <testcase classname="UI Side" name="Goto indicator showing which side to select" time="43.44"/>
+    <testcase classname="UI Side" name="Spin indicator disabled" time="99.321"/>
+    <testcase classname="UI Side" name="Show logout option is sub-tab selected" time="83.01"/>
+    <testcase classname="UI Side" name="Next again based on connected repository" time="49.321"/>
+    <testcase classname="UI Side" name="No timer displayed if connection off" time="44.01"/>
+    <testcase classname="UI Side" name="Ok circle spinning .." time="19.21"/>
+    <testcase classname="UI Side" name="No rendering for lower sub-tab" time="58.01"/>
+    <testcase classname="UI Side" name="Stop sign going back .. set to slow" time="83.01"/>
+    <testcase classname="UI Side" name="More floating text displayed" time="19.321"/>
+    <testcase classname="UI Side" name="Show case floating cloud :)" time="83.01"/>
+  </testsuite>
+</testsuites>

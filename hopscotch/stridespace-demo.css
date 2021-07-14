@@ -1,0 +1,19 @@
+div.tour-testspace-demo {
+  background-color: lightyellow;
+}
+
+div.tour-testspace-demo .hopscotch-bubble-arrow-container.up .hopscotch-bubble-arrow {
+  border-bottom-color: lightyellow;
+}
+
+div.tour-testspace-demo .hopscotch-bubble-arrow-container.down .hopscotch-bubble-arrow {
+  border-top-color: lightyellow;
+}
+
+div.tour-testspace-demo .hopscotch-bubble-arrow-container.left .hopscotch-bubble-arrow {
+  border-right-color: lightyellow;
+}
+
+div.tour-testspace-demo .hopscotch-bubble-arrow-container.right .hopscotch-bubble-arrow {
+  border-left-color: lightyellow;
+}

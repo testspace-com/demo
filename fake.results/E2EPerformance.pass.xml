@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="E2E Performance">
+    <testcase classname="E2E Performance" name="Loopback using blue channel" time="915.10"/>
+    <testcase classname="E2E Performance" name="Loopback using gray channel" time="411.20"/>
+    <testcase classname="E2E Performance" name="Re-connect using loopback on both channels" time="146.03"/>
+    <testcase classname="E2E Performance" name="System setup with cross section" time="19.44"/>
+    <testcase classname="E2E Performance" name="Re-boot and setup with both channels" time="333.321"/>
+  </testsuite>
+</testsuites>
