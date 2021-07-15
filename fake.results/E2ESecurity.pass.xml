@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="E2E Security">
+    <testcase classname="E2E Security" name="Check error in banking API" time="55.10"/>
+    <testcase classname="E2E Security" name="Display system error codes based on location" time="12.20"/>
+    <testcase classname="E2E Security" name="Disconnect terminal display on reboot" time="546.03"/>
+  </testsuite>
+</testsuites>

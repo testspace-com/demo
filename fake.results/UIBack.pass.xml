@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="UI Back">
+    <testcase classname="UI Back" name="Check lower pane showing all available buttons" time="32.06"/>
+    <testcase classname="UI Back" name="Footer display generated date based on location" time="82.10"/>
+    <testcase classname="UI Back" name="Prompt for login if non-matching credentials" time="12.310"/>
+  </testsuite>
+</testsuites>

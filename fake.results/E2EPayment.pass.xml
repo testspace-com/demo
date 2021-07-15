@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="E2E Payment">
+    <testcase classname="E2E Payment" name="Setup credit card" time="15.10"/>
+    <testcase classname="E2E Payment" name="Change banking system" time="11.20"/>
+    <testcase classname="E2E Payment" name="Connect to stripe.com processing" time="46.03"/>
+    <testcase classname="E2E Payment" name="Apply billing usage based" time="9.44"/>
+    <testcase classname="E2E Payment" name="Send out notification of payment" time="33.321"/>
+    <testcase classname="E2E Payment" name="Invoice settings" time="23.01"/>
+    <testcase classname="E2E Payment" name="Email owner of acount" time="19.321"/>
+    <testcase classname="E2E Payment" name="Notify Owner of system change" time="43.01"/>
+    <testcase classname="E2E Payment" name="Respond to query n=1..i where i is settable" time="012.21"/>
+    <testcase classname="E2E Payment" name="Remove non-compliance order" time="55.01"/>
+    <testcase classname="E2E Payment" name="Reboot backend on error code 127" time="3.01"/>
+  </testsuite>
+</testsuites>

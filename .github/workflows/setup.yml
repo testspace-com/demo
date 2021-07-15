@@ -1,0 +1,20 @@
+name: SETUP
+on:
+  workflow_dispatch:
+    inputs:
+      domain:
+        default: 'testspace'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup client
+        run: |
+          curl -fsSL https://testspace-client.s3.amazonaws.com/testspace-linux.tgz | sudo tar -zxvf- -C /usr/local/bin
+          testspace config url s2.${{ github.event.inputs.domain }}.com
+        env:
+          DOMAIN: ${{ secrets.TESTSPACE_DOMAIN }}
+      - name: Setup failure tracking
+        run: |
+          ./push.setup.sh

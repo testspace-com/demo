@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="UI Front">
+    <testcase classname="UI Front" name="Landing Page shows All Projects that have been activated" time="61.10"/>
+    <testcase classname="UI Front" name="Sub-tabs displays (n) units, where n=12" time="52.10"/>
+    <testcase classname="UI Front" name="Sub-tabs disabled for all outer dialogs" time="67.310"/>
+    <testcase classname="UI Front" name="Landing page enabled for project" time="17.44"/>
+    <testcase classname="UI Front" name="Proper descriptions based on connected repository" time="9.321"/>
+    <testcase classname="UI Front" name="Timer rendering based on local standard time and option to ignore" time="33.01"/>
+  </testsuite>
+</testsuites>

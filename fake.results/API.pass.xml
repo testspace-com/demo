@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="API Organization">
+    <testcase classname="API Organization" name="GET /api/" time="2.06"/>
+  </testsuite>
+  <testsuite name="API Projects">
+    <testcase classname="API Projects" name="POST /api/projects" time="1.06"/>
+    <testcase classname="API Projects" name="Get /api/projects/" time="02.10"/>
+    <testcase classname="API Projects" name="GET /api/projects/{project}" time="3.4"/>
+    <testcase classname="API Projects" name="PATCH /api/projects/{project}" time="01.10"/>
+    <testcase classname="API Projects" name="DELETE /api/projects/{project}" time="03.7"/>
+  </testsuite>
+  <testsuite name="API Results">
+    <testcase classname="API Results" name="GET /api/projects/{project}/spaces/{spaces}/results" time=".172"/>
+    <testcase classname="API Results" name="GET /api/projects/{project}/spaces/{space}/results/{result}" time="0.192"/>
+    <testcase classname="API Results" name="GET /api/projects/{project}/spaces/{space}/results/{result}/failures" time="0.162"/>
+    <testcase classname="API Results" name="GET /api/projects/{project}/spaces/{space}/results/{result}/contents" time="0.255"/>
+    <testcase classname="API Results" name="GET /api/projects/{project}/spaces/{space}/results/{result}/contents/{content}" time="0.198"/>
+    <testcase classname="API Results" name="POST /api/projects/{project}/spaces/{space}/results/{result}}" time="0.165"/>
+    <testcase classname="API Results" name="PATCH /api/projects/{project}/spaces/{space}/results/{result}" time="5.512"/>
+  </testsuite>
+  <testsuite name="API Users">
+    <testcase classname="API Users" name="GET /api/users/" time=".186"/>
+    <testcase classname="API Users" name="GET /api/users/{user}" time="0.165"/>
+    <testcase classname="API Users" name="GET /api/project/{project}/users" time="0.159"/>
+    <testcase classname="API Users" name="POST /api/projects/{project}/users" time="0.172"/>
+    <testcase classname="API Users" name="GET /api/project/{project}/users/{user}" time="0.168"/>
+    <testcase classname="API Users" name="PATCH /api/projects/{project}/users/{user}" time="0.206"/>
+    <testcase classname="API Users" name="DELETE /api/project/{project}/users/{user}" time="0.358"/>
+  </testsuite>
+</testsuites>
