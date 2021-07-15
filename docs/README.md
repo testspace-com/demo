@@ -1,11 +1,13 @@
 # Tour
 A demonstration of https://testspace.com using the **Hopscotch** framework from LinkedIn.  
 
-To learn more about Hopscotch and the API, check out the repo: https://github.com/linkedin/hopscotch.Note that Hopscotch is **no longer** supported. 
+To learn more about Hopscotch and the API, check out the repo: https://github.com/linkedin/hopscotch. Note that Hopscotch is **no longer** supported. 
 
 For usage information, go [here](https://s2technologies.github.io/hopscotch/).
 
 ## Files
+The files can be access here: https://testspace-com.github.io/demo/FILENAME
+
 The hopscotch files: 
   - `hopscotch.min.css`
   - `hopscotch.min.js`
