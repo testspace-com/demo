@@ -25,7 +25,7 @@ var tour = {
       arrowOffset: 'center',
       multipage: true,
       onNext: function() {
-        window.location = '/projects/s2technologies:testspace/spaces/main/metrics';
+        window.location = '/projects/s2technologies:testspace/spaces/master/metrics';
       }
     },
     {
@@ -56,7 +56,7 @@ var tour = {
         $('.hopscotch-bubble-arrow-container').css('visibility', 'hidden');
       },
       onPrev: function() {
-        window.location = '/projects/s2technologies:testspace/spaces/main/metrics';
+        window.location = '/projects/s2technologies:testspace/spaces/master/metrics';
       },
       onNext: function() {
         window.location = '/projects/testspace-com:demo/spaces/main/current/failures';
