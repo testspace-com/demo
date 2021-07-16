@@ -1,9 +1,8 @@
-## Demo Tour
-A Demo Tour is available at [demo.testspace.com](https://demo.testspace.com). There are some publicly viewable *real test projects* (i.e. Testspace, Stride, etc.) and a fake test project called `testspace-com:demo`. To invoke the tour click on the following link: 
+## Demo 
+This demo Testspace project is available at [testspace-com:demo](https://s2.testspace.com/projects/testspace-com:demo). To invoke the tour click on the following link: 
 
-> https://demo.testspace.com
+> https://s2.testspace.com/projects/testspace-com:demo
 
-A demonstration is using the **Hopscotch** framework from LinkedIn. 
 
 ## Fake Results
 The fake results contained in the `testspace-com:demo` project are for *demonstration purposes* only. There is a set of `pre-canned result` XML files under the *fake.results* used for pushing content to Testspace. 
