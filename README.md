@@ -15,7 +15,7 @@ The *fake results* highlight the following:
 - `Grouping Similar Failure Types`
 - and more
 
-For general information on Testspace, refer to the [help documentation](https://help.testspace.com).
+For general information on Testspace publishing, refer to the [help documentation](https://help.testspace.com/publish/overview).
 
 ### Scripts 
 
@@ -29,3 +29,27 @@ Use the two GitHub Workflows to manual execute the corresponding shell scripts v
 - `setup.yml`
 
 The GitHub workflows use the `inputs` to set the domain. The default is `testspace`. 
+
+## Specs
+The repo also contains a set of *fake* test specs for *demonstration purposes only*. The *fake specs* highlight the following:
+
+- `Specs` ca be co-located with automated tests 
+- Manual results are `carried` from previous session(s) when new test automated results are published
+
+
+For general information on Testspace Manual Test Framework, refer to the [help documentation](https://help.testspace.com/manual/overview).
+
+### Desktop Preview
+To preview the `specs` on console:
+
+Install:
+```
+cd specs
+bundle install
+```
+
+Run:
+```
+cd specs
+bundle exec jekyll serve
+```

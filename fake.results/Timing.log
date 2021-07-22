@@ -1,0 +1,5 @@
+File Timing.log: contains some simple timing metrics.
+
+The delay before start was 134 ms 
+The latency from start to actual start was 65 ms
+The duration from actual start to stop was 165 ms

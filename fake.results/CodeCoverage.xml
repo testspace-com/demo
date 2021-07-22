@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage
+  SYSTEM 'http://cobertura.sourceforge.net/xml/coverage-03.dtd'>
+<coverage line-rate="0.733">
+  <packages>
+    <package name="Controller">
+      <classes>
+        <class filename="controlStart.cpp">
+          <methods/>
+          <lines>
+            <line branch="false" hits="1" number="1"/>
+            <line branch="false" hits="1" number="2"/>
+            <line branch="false" hits="1" number="3"/>
+            <line branch="false" hits="0" number="4"/>
+          </lines>
+        </class>
+        <class filename="controllerExec.cpp">
+          <methods/>
+          <lines>
+            <line branch="false" hits="1" number="1"/>
+            <line branch="false" hits="1" number="2"/>
+            <line branch="false" hits="0" number="3"/>
+            <line branch="false" hits="0" number="4"/>
+          </lines>
+        </class>
+          <class filename="controllerShutdown.cpp">
+          <methods/>
+          <lines>
+            <line branch="false" hits="1" number="1"/>
+            <line branch="false" hits="1" number="2"/>
+            <line branch="false" hits="0" number="3"/>
+            <line branch="false" hits="0" number="4"/>
+            <line branch="false" hits="1" number="5"/>
+            <line branch="false" hits="1" number="6"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Model">
+      <classes>
+        <class filename="modelInit.cpp">
+          <methods/>
+          <lines>
+            <line branch="false" hits="1" number="1"/>
+            <line branch="false" hits="1" number="2"/>
+            <line branch="false" hits="0" number="3"/>
+            <line branch="false" hits="0" number="4"/>
+          </lines>
+        </class>
+        <class filename="modelStart.cpp">
+          <methods/>
+          <lines>
+            <line branch="false" hits="1" number="1"/>
+            <line branch="false" hits="0" number="2"/>
+            <line branch="false" hits="0" number="3"/>
+            <line branch="false" hits="0" number="4"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Lib">
+      <classes>
+        <class filename="LibInit.cpp">
+          <methods/>
+          <lines>
+            <line branch="false" hits="1" number="1"/>
+            <line branch="false" hits="1" number="2"/>
+            <line branch="false" hits="0" number="3"/>
+            <line branch="false" hits="0" number="4"/>
+            <line branch="false" hits="0" number="5"/>
+            <line branch="false" hits="0" number="6"/>
+          </lines>
+        </class>
+        <class filename="LibSweep.cpp">
+          <methods/>
+          <lines>
+            <line branch="false" hits="1" number="1"/>
+            <line branch="false" hits="0" number="2"/>
+            <line branch="false" hits="1" number="3"/>
+            <line branch="false" hits="1" number="4"/>
+          </lines>
+        </class>
+        <class filename="LibCache.cpp">
+          <methods/>
+          <lines>
+            <line branch="false" hits="1" number="1"/>
+            <line branch="false" hits="0" number="2"/>
+            <line branch="false" hits="0" number="3"/>
+            <line branch="false" hits="0" number="4"/>
+            <line branch="false" hits="1" number="5"/>
+            <line branch="false" hits="1" number="6"/>
+            <line branch="false" hits="0" number="7"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
