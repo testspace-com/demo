@@ -6,10 +6,9 @@ testspace:
 # Hello
 This is an example test `Spec`. Writing a Manual Test.
 
-## Test One
+## Check This
 
-- Do this 
-- Do tthat
+- Do this
+- Do that
 
-## Test Two
-
+## Next
