@@ -2,25 +2,14 @@
 testspace:
 ---
 
+
 # Hello
 This is an example test `Spec`. Writing a Manual Test.
 
 ## Test One
-Do something. Example only.
 
-- Do this
-- Do that
-
+- Do this 
+- Do tthat
 
 ## Test Two
-Another example test. Check based on table.
-
-OS | Count
----| -----
-Linux | 3
-Windows | 5
-Mac  | 2
-
-- Check more stuff
-
 
