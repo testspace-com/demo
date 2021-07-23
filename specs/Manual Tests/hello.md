@@ -2,13 +2,10 @@
 testspace:
 ---
 
+# My Spec
 
-# Hello
-This is an example test `Spec`. Writing a Manual Test.
+## Case One
+Something here
 
-## Check This
-
-- Do this
-- Do that
-
-## Next
+- This and That
+- Next check
