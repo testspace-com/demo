@@ -3,9 +3,9 @@ testspace:
 title: Sign in
 before:
   name: github::auto
-  description: example input
+  description: SETUP FIXTURE
   input:
-    name: same
+    name: Sam
     password: 1234
 description: Checks the sequence of signing into the system. 
 ---

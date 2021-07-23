@@ -3,6 +3,9 @@ This demo Testspace project is available at [testspace-com:demo](https://s2.test
 
 > https://s2.testspace.com/projects/testspace-com:demo
 
+<br>
+
+[![Space Metric](https://s2.stridespace.com/spaces/20907/badge?token=ce9d082b5169ca25479d33d3f8aa033d90fe6e45)](https://s2.stridespace.com/spaces/20907?utm_campaign=badge&utm_medium=referral&utm_source=test "Test Cases") [![Space Metric](https://s2.stridespace.com/spaces/20907/metrics/42956/badge?token=4bb36aff66be5954de502b76895309d72b83662f)](https://s2.stridespace.com/spaces/20907/current/Code%20Coverage?utm_campaign=badge&utm_medium=referral&utm_source=coverage "Code Coverage (lines)") [![Space Metric](https://s2.stridespace.com/spaces/20907/metrics/42957/badge?token=dbb8ccc83e9336439d0478074ea1e1c285d3fb28)](https://s2.stridespace.com/spaces/20907/current/Issues?utm_campaign=badge&utm_medium=referral&utm_source=issues "Issues")
 
 ## Fake Results
 The fake results contained in the `testspace-com:demo` project are for *demonstration purposes* only. There is a set of `pre-canned result` XML files under the *fake.results* used for pushing content to Testspace. 
