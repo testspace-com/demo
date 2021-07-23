@@ -3,7 +3,7 @@ testspace:
 ---
 
 # Hello
-This is an example test `Spec`.
+This is an example test `Spec`. Writing a Manual Test.
 
 ## Test One
 Do something. Example only.
