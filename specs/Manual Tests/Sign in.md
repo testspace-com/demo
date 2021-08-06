@@ -1,6 +1,6 @@
 ---
 testspace:
-title: Sign in
+title: Sign-in
 before:
   name: github::auto
   description: SETUP FIXTURE
