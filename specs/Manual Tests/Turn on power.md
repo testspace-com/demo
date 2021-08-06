@@ -1,6 +1,6 @@
 ---
 testspace:
-title: Start up
+title: Turn on power
 ---
 
 {% if page %} {% assign spec = page %} {% endif %}
