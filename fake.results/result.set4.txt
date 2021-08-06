@@ -5,3 +5,5 @@
 "[UI Tests]$RESULTS_PATH/UIBack.fail.xml"
 "[UI Tests]$RESULTS_PATH/UIFront.fail.xml"
 "[UI Tests]$RESULTS_PATH/UISide.fail.xml"
+"$RESULTS_PATH/CodeCoverage.xml"
+"$RESULTS_PATH/Timing.log{$RESULTS_PATH/Timing.csv: Timing throughput}"

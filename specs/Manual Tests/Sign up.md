@@ -1,6 +1,6 @@
 ---
 testspace:
-title: Sign up
+title: Sign-up
 description: Checks the sequence of signing up for using the system. 
 ---
 

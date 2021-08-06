@@ -1,6 +1,12 @@
 ---
 testspace:
-title: Sign in
+title: Sign-in
+before:
+  name: github::auto
+  description: SETUP FIXTURE
+  input:
+    name: Sam
+    password: 1234
 description: Checks the sequence of signing into the system. 
 ---
 
@@ -9,6 +15,7 @@ description: Checks the sequence of signing into the system.
 # {{ spec.title }}
 {% include example-intro.md %}
 
+> USES A AUTOMATED FIXTURE 🎁
 
 ## Credentials
 Confirm credentials are valid.
