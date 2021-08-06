@@ -15,6 +15,7 @@ description: Checks the sequence of signing into the system.
 # {{ spec.title }}
 {% include example-intro.md %}
 
+> USES A AUTOMATED FIXTURE 🎁
 
 ## Credentials
 Confirm credentials are valid.

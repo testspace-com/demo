@@ -6,7 +6,7 @@ title: Turn on power
 {% if page %} {% assign spec = page %} {% endif %}
 
 # {{ spec.title }}
-This test different startup stages of the application, eventually transitioning to the `idle` state. 
+This test different startup stages of the application when turning on the power. It will eventually transitioning to the `idle` state. 
 
 ## Check Transitions
 The display will be changed based on the following configurations: 
