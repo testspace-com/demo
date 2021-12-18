@@ -2,7 +2,7 @@
 testspace:
 title: Sign-in
 before:
-  name: github::auto
+  name: github::setup
   description: SETUP FIXTURE
   input:
     name: Sam

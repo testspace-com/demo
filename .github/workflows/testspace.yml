@@ -17,7 +17,7 @@ env:
   IN_CONTEXT: ${{ github.event.inputs.context }}
 jobs:
   name1:
-    if: github.event.inputs.name == 'fn-name1'
+    if: github.event.inputs.name == 'setup'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
