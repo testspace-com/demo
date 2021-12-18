@@ -6,7 +6,7 @@
 if [[ -z "${CI}" ]]; then
     export CI=true
     if [[ $# -eq 1 ]]; then
-        testspace config url https://$STRIDESPACE_TOKEN:@munderseth.stridespace.com
+        testspace config url https://$STRIDESPACE_TOKEN:@s2.stridespace.com
     else
         testspace config url https://$TESTSPACE_TOKEN:@s2.testspace.com
     fi
