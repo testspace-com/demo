@@ -16,7 +16,7 @@ env:
   IN_PAYLOAD: ${{ github.event.inputs.payload }}
   IN_CONTEXT: ${{ github.event.inputs.context }}
 jobs:
-  name1:
+  fixture:
     if: github.event.inputs.name == 'setup'
     runs-on: ubuntu-latest
     steps:
