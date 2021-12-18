@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-       - name: Setup client using Passed org
+      - name: Setup client using Passed org
         if: github.event.inputs.org  != ''
         uses: testspace-com/setup-testspace@v1
         with:
