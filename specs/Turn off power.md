@@ -26,8 +26,10 @@ State | Timeout | Info
 {%- for state in spec.matrix %}
   {{ state.name }} | {{ state.timeout}} | {{state.reqs }} 
 {%- endfor %}
+
 <br>
 <br>
+
 
 ## [teardown]
 Make sure to remove device from any external contact.

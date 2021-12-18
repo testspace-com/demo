@@ -2,19 +2,26 @@ name: SETUP
 on:
   workflow_dispatch:
     inputs:
-      org:
-        default: 'munderseth'
       domain:
-        default: 'stridespace'
+        default: 'testspace'
+        description: 'Defaults to testspace.com'
+      org:
+        description: 'Leave this blank for must cases'
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Setup client
-        run: |
-          curl -fsSL https://testspace-client.s3.amazonaws.com/testspace-linux.tgz | sudo tar -zxvf- -C /usr/local/bin
-          testspace config url ${{ github.event.inputs.org }}.${{ github.event.inputs.domain }}.com
+      - name: Setup client using Passed org
+        if: github.event.inputs.org  != ''
+        uses: testspace-com/setup-testspace@v1
+        with:
+          domain: ${{ github.event.inputs.org }}.${{ github.event.inputs.domain }}.com
+      - name: Setup client using GitHub org 
+        if: github.event.inputs.org  == ''
+        uses: testspace-com/setup-testspace@v1
+        with:
+          domain: ${{ github.repository_owner }}.${{ github.event.inputs.domain }}.com
       - name: Setup failure tracking
         run: |
           ./push.setup.sh
