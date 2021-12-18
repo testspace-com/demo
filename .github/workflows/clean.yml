@@ -2,8 +2,10 @@ name: CLEAN
 on:
   workflow_dispatch:
     inputs:
+      org:
+        default: 'munderseth'
       domain:
-        default: 'testspace'
+        default: 'stridespace'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,7 +14,7 @@ jobs:
       - name: Setup client
         run: |
           curl -fsSL https://testspace-client.s3.amazonaws.com/testspace-linux.tgz | sudo tar -zxvf- -C /usr/local/bin
-          testspace config url s2.${{ github.event.inputs.domain }}.com
+          testspace config url ${{ github.event.inputs.org }}.${{ github.event.inputs.domain }}.com
       - name: Clean out failure tracking
         run: |
           ./push.clean.sh
