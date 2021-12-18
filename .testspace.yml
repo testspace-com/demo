@@ -1,2 +1,2 @@
 manual:
-publish_path: "E2E Manual Tests"
+  publish_path: "E2E Manual Tests"
