@@ -14,7 +14,8 @@ Mode 1.a | Mode 2.c
  State 7 | State 7x.b
  NA      | Current
 
-The `NA` mode is not available. 
+<br><br>
+ 
 
 ## Check Transitions
 The display will be changed based on the following configurations: 
