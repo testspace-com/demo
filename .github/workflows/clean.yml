@@ -6,7 +6,7 @@ on:
         default: 'testspace'
         description: 'Defaults to testspace.com'
       org:
-        description: 'Defaults to gh org name, leave this blank for must cases'
+        description: 'Defaults to gh org name, leave this blank for most cases'
 jobs:
   build:
     runs-on: ubuntu-latest
