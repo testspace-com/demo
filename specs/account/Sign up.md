@@ -22,4 +22,6 @@ Confirm credentials are valid.
 - Exists for the configured duration
 - Logged in with a primary account
 
-{% include example-case.md name="Self Verify 3" %}
+
+{% assign case_name = 'Self Verify: ' | append: spec.title %}
+{% include example-case.md name=case_name %}
