@@ -13,9 +13,12 @@ description: Checks the sequence for signing into the system.
 {% if page %} {% assign spec = page %} {% endif %}
 
 # {{ spec.title }}
-{% include example-intro.md %}
+This example uses an automated setup fixture. 
 
 > USES A AUTOMATED FIXTURE 🎁
+
+## [setup]
+{% include example-intro.md %}
 
 ## Credentials
 Confirm credentials are valid.
