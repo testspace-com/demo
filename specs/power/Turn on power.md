@@ -54,3 +54,5 @@ The idle can switch automatically based on previous configuration.
 Now review the states based on following diagram:
 
 ![states](./states.png "State machine")
+
+Make sure to capture any *Observations* during the test session :eyes:
