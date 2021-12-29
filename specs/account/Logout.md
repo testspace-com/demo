@@ -1,7 +1,7 @@
 ---
 testspace:
-title: Log out
-description: Checks the sequence of logging out of the system. 
+title: Logout
+description: Checks the sequence of logs from the staging server. 
 ---
 
 {% if page %} {% assign spec = page %} {% endif %}
@@ -16,4 +16,4 @@ Confirm the credentials are valid.
 - Logged in with the primary account
 
 
-{% include example-case.md name="Self Verify" %}
+{% include example-case.md name="Self Verify 1" %}

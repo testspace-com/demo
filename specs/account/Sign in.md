@@ -1,13 +1,13 @@
 ---
 testspace:
-title: Sign-in
+title: Sign In
 before:
   name: github::setup
   description: SETUP FIXTURE
   input:
     name: Sam
     password: 1234
-description: Checks the sequence of signing into the system. 
+description: Checks the sequence for signing into the system. 
 ---
 
 {% if page %} {% assign spec = page %} {% endif %}
@@ -24,4 +24,4 @@ Confirm credentials are valid.
 - Logged in with the primary account
 
 
-{% include example-case.md name="Self Verify" %}
+{% include example-case.md name="Self Verify 2" %}
