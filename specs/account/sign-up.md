@@ -1,7 +1,7 @@
 ---
 testspace:
-title: Sign-up
-description: Checks the sequence of signing up for using the system. 
+title: Sign Up
+description: Checks the sequence of signing up for using the account. 
 ---
 
 {% if page %} {% assign spec = page %} {% endif %}
@@ -22,4 +22,6 @@ Confirm credentials are valid.
 - Exists for the configured duration
 - Logged in with a primary account
 
-{% include example-case.md name="Self Verify" %}
+
+{% assign case_name = 'Self Verify: ' | append: spec.title %}
+{% include example-case.md name=case_name %}

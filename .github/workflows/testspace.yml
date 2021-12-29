@@ -1,0 +1,25 @@
+name: Testspace
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Function name'
+        required: true
+      payload:
+        description: 'Function input-payload'
+        required: true
+      context:
+        description: 'Function execution-context'
+        required: true
+env:
+  IN_NAME:    ${{ github.event.inputs.name }}
+  IN_PAYLOAD: ${{ github.event.inputs.payload }}
+  IN_CONTEXT: ${{ github.event.inputs.context }}
+jobs:
+  setup:
+    if: github.event.inputs.name == 'setup'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Echo test spec function name
+        run: echo "running ${IN_NAME} function"
