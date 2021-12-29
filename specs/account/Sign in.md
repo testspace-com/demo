@@ -18,7 +18,14 @@ This example uses an automated setup fixture.
 > USES A AUTOMATED FIXTURE 🎁
 
 ## [setup]
-{% include example-intro.md %}
+Verify states before checking specific cases. 
+
+Mode     | Check
+-------- | -----
+New      | Sign Up
+Existing | Credentials
+
+<br>
 
 ## Credentials
 Confirm credentials are valid.

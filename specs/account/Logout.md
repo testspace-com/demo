@@ -15,6 +15,9 @@ Confirm the credentials are valid.
 - Exists for the configured duration
 - Logged in with the primary account
 
+Once confirm also check:
+- For blinking led confirming mode transition.
+- Also review duration setting: `0.00`
 
 {% assign case_name = 'Self Verify: ' | append: spec.title %}
 {% include example-case.md name=case_name %}
