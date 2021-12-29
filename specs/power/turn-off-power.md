@@ -4,10 +4,10 @@ title: Turn off power
 matrix: # test different systems
   - name: Idle
     timeout: 27 seconds
-    reqs: "[reqs](https://github.com/munderseth/demo/issues/2)"
+    reqs: "[reqs](https://github.com/testspace-com/demo/issues/5)"
   - name: Shutdown
     timeout: 14 seconds
-    reqs: "[reqs](https://github.com/munderseth/demo/issues/2)"
+    reqs: "[reqs](https://github.com/testspace-com/demo/issues/6)"
 cycle: 77
 ---
 
@@ -17,7 +17,7 @@ cycle: 77
 This test verifies shutdown stages for each device. The device type will always be displayed during the power cycle shutdown sequence.
 
 - The timeout specific to each device type required for verification
-- Any Device specifics requirements can be found on [here](https://github.com/munderseth/demo/issues?q=is%3Aissue+is%3Aopen+label%3Areqs) filtering on the `reqs` label. 
+- Any Device specifics requirements can be found on [here](https://github.com/testspace-com/demo/issues?q=is%3Aissue+is%3Aopen+label%3Areqs) filtering on the `reqs` label. 
 
 ## [setup]
 The following is the requirement matrix:
