@@ -1,9 +1,11 @@
 # Test Specs
 The **Results Demo** also contains a few "fake" `Test Specs` for demonstration purposes. Manual testings can be easily integrated with automated testing, even though the execution of the tests can occur at different times. 
 
-- Log out
-- Sign in
+- Logout
+- Sign in (uses a `Fake` automated fixture)
 - Sign up
+- Turn off power
+- Turn on power
 
 For more information on the manual testing, refer [here](https://help.testspace.com/manual/overview). 
 

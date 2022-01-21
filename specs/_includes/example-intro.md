@@ -5,5 +5,3 @@ Mode     | Check
 New      | Sign Up
 Existing | Credentials
 NA       | Logout
-
-<br>

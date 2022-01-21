@@ -25,7 +25,6 @@ Mode     | Check
 New      | Sign Up
 Existing | Credentials
 
-<br>
 
 ## Credentials
 Confirm credentials are valid.
