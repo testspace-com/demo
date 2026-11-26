@@ -3,8 +3,8 @@ testspace:
 title: Sign In
 before:
   name: github::setup
-  description: SETUP FIXTURE
-  input:
+  description: Create the test account
+  payload:
     name: Sam
     password: 1234
 description: Checks the sequence for signing into the system. 
@@ -13,9 +13,7 @@ description: Checks the sequence for signing into the system.
 {% if page %} {% assign spec = page %} {% endif %}
 
 # {{ spec.title }}
-This example uses an automated setup fixture. 
-
-> USES A AUTOMATED FIXTURE 🎁
+This spec runs an automated fixture before its cases: the `setup` job in `.github/workflows/testspace.yml`, with the `payload` above.
 
 ## [setup]
 Verify states before checking specific cases. 

@@ -1,4 +1,8 @@
+# Runs a spec's automated fixture when a tester starts it in Testspace.
+# Testspace dispatches this workflow; a spec's "name: github::setup" selects the job below.
+# See https://help.testspace.com/manual/automated-fixtures
 name: Testspace
+run-name: ${{ fromJSON(inputs.context).spec.name }}
 on:
   workflow_dispatch:
     inputs:
@@ -12,14 +16,15 @@ on:
         description: 'Function execution-context'
         required: true
 env:
-  IN_NAME:    ${{ github.event.inputs.name }}
-  IN_PAYLOAD: ${{ github.event.inputs.payload }}
-  IN_CONTEXT: ${{ github.event.inputs.context }}
+  IN_NAME:    ${{ inputs.name }}
+  IN_PAYLOAD: ${{ inputs.payload }}
+  IN_CONTEXT: ${{ inputs.context }}
 jobs:
   setup:
-    if: github.event.inputs.name == 'setup'
+    if: inputs.name == 'setup'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - name: Echo test spec function name
-        run: echo "running ${IN_NAME} function"
+      - uses: actions/checkout@v4
+      - name: Prepare the system for the spec
+        # A real fixture would read the spec's payload from the IN_PAYLOAD environment variable.
+        run: echo "running the ${IN_NAME} fixture"
